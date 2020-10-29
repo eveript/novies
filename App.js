@@ -27,7 +27,6 @@ export default function App() {
             'https://lh3.googleusercontent.com/ogw/ADGmqu8OM1cBYkzZ6Z4DVidC2d23yaGMRjrG-Ymn4K3g=s64-c-mo',
             require('./assets/splash.png'),
         ])
-        console.log(images)
         const fonts = cacheFonts([Ionicons.font])
         return Promise.all([...images, ...fonts])
     }
